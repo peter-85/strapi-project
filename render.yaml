@@ -9,7 +9,7 @@ services:
     autoDeploy: true
     disk:
       name: strapi-data
-      mountPath: /data/uploads
+      mountPath: /data/public
       sizeGB: 1
     envVars:
       - key: NODE_VERSION
